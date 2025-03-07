@@ -3,7 +3,7 @@ import streamlit as st # type: ignore
 import sqlite3
 
 # 데이터베이스 파일이 저장될 디렉터리
-db_directory = "/Users/sein/Desktop/조세인/두리도리/돈까스일기"
+db_directory = "./"
 
 # 데이터베이스 파일 경로 지정
 db_path = os.path.join(db_directory, "data.db")
